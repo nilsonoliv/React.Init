@@ -1,9 +1,11 @@
 //import logo from './logo.svg';
 import './App.css';
 import { soma } from './js/Soma';
-/*import { hello } from './js/hello';
+import Clock from './js/classeeSeuMetodo';
 import tick from './js/tick';
 import { welcome } from './js/welcome';
+/*import { hello } from './js/hello';
+
 import ReactDOM from 'react-dom/client';
 import React from 'react';*/
 
@@ -12,11 +14,13 @@ function App() {
   var somaVariavel = soma(12,3)
 
   return (
+    Clock,
+    welcome,//ESSA PARTE AINDA NÃO FUNCIONA COMPLETAMENTE
     <div>
     <h1>Hello ReactJs</h1>
-    <p>{somaVariavel}</p>
-
-    </div>
+    <p>{somaVariavel}</p>,
+    </div>,
+    tick
     
  )
 
