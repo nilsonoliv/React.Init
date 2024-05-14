@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Clock from './js/classeeSeuMetodo';
-import tick from './js/tick';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,7 +12,6 @@ root.render(
   <React.StrictMode>
     <App />
     <Clock/>
-    <tick/>
   </React.StrictMode>
 );
 
