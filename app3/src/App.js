@@ -1,6 +1,7 @@
 import './App.css';
 import React, {Component} from 'react'
 import { connect } from 'react-redux';
+/*O codigo do curso esta desatualizado*/
 
  class App extends Component() {
   render(){
