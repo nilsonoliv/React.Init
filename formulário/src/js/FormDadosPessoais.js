@@ -1,6 +1,7 @@
 
 
 export const FormDadosPessoais = () =>{
+return(
 
 <div id='dados-pessoais' className='dados-pessoais-container'>
 
@@ -23,5 +24,6 @@ export const FormDadosPessoais = () =>{
             <option value={1}>Pernambuco</option>
           </select>
         </div>
+)
 }
 
