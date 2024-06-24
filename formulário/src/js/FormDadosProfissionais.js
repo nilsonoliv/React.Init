@@ -16,15 +16,23 @@ class FormDadosProfissionais extends Component{
                         <label form="campo-radio1">Gerência</label>
                         
                         <input id="campo-radio1" type="radio" name="radio-cargo" ></input>
-                        <label form="campo-radio1">Gerência</label>
+                        <label form="campo-radio1">Financeiro</label>
 
                         <input id="campo-radio1" type="radio" name="radio-cargo" ></input>
-                        <label form="campo-radio1">Gerência</label>
+                        <label form="campo-radio1">Recepção</label>
 
                         <input id="campo-radio1" type="radio" name="radio-cargo" ></input>
-                        <label form="campo-radio1">Gerência</label>
+                        <label form="campo-radio1">Administrativo</label>
+
+                        <input id="campo-radio1" type="radio" name="radio-cargo" ></input>
+                        <label form="campo-radio1">Jurídico</label>
 
                     </span>
+
+                </div>
+
+                <div>
+                    <h4>Área de interesse</h4>
 
                 </div>
 
