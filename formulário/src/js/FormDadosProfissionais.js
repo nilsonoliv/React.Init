@@ -33,7 +33,25 @@ class FormDadosProfissionais extends Component{
 
                 <div>
                     <h4>Área de interesse</h4>
+                    <input type="checkbox" id="computacao" name="area-interesse" value="computacao"></input>
+                    <label for="computacao">Computação</label>
 
+                    <input type="checkbox" id="biologia" name="area-interesse" value="biologia"></input>
+                    <label for="biologia">Biologia</label>
+
+                    <input type="checkbox" id="meioambiente" name="area-interesse" value="meioambiente"></input>
+                    <label for="meioambiente">Meio Ambiente</label>
+
+                    <input type="checkbox" id="engenharia" name="area-interesse" value="engenharia" ></input>
+                    <label for="engenharia">Engenharia</label>
+
+                    <input type="checkbox" id="historia" name="area-interesse"  value="historia" ></input>
+                    <label for="historia">Histórita</label>
+                </div>
+
+                <div className="">
+                    <label for="minicurriculo">Mini currículo</label>
+                    <textarea id="minicurriculo" rows="20" cols="8" ></textarea>
                 </div>
 
         
